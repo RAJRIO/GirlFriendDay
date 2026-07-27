@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ramya's Favorites ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+
+body{
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(135deg,#fff5f8,#ffd1dc);
+
+}
+
+
+
+/* MAIN */
+
+.page{
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:40px;
+
+}
+
+
+
+.container{
+
+    width:90%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:50px;
+
+}
+
+
+
+/* LEFT CONTENT */
+
+
+.text{
+
+    width:45%;
+
+}
+
+
+
+.text h1{
+
+    font-size:45px;
+
+    line-height:1.2;
+
+    color:#e91e63;
+
+    font-weight:700;
+
+}
+
+
+
+.text p{
+
+    margin-top:20px;
+
+    color:#555;
+
+    font-size:17px;
+
+    line-height:1.8;
+
+}
+
+
+
+.favorite-list{
+
+    margin-top:25px;
+
+}
+
+
+
+.favorite-list h3{
+
+    margin:14px 0;
+
+    color:#444;
+
+    font-size:17px;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+
+.favorite-list h3:hover{
+
+    color:#e91e63;
+
+    transform:translateX(10px);
+
+}
+
+
+
+
+/* BUTTON */
+
+
+button{
+
+    margin-top:25px;
+
+    padding:14px 35px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:#e91e63;
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+button:hover{
+
+    background:#c2185b;
+
+    transform:scale(1.08);
+
+}
+
+
+
+/* RIGHT IMAGE CARDS */
+
+
+.gallery{
+
+    width:45%;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+
+
+.photo-card{
+
+    background:white;
+
+    padding:12px;
+
+    border-radius:22px;
+
+    box-shadow:
+    0 15px 30px rgba(0,0,0,.15);
+
+    transition:.4s;
+
+}
+
+
+
+.photo-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+
+.photo-card img{
+
+    width:100%;
+
+    height:180px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+}
+
+
+
+.photo-card h3{
+
+    text-align:center;
+
+    margin-top:10px;
+
+    color:#e91e63;
+
+    font-size:15px;
+
+}
+
+
+
+/* MOBILE */
+
+
+@media(max-width:900px){
+
+
+.container{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+
+.text,
+.gallery{
+
+    width:100%;
+
+}
+
+
+
+.text h1{
+
+    font-size:32px;
+
+}
+
+
+
+.gallery{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.photo-card img{
+
+    height:250px;
+
+}
+
+
+}
+
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+
+
+<section class="page">
+
+
+<div class="container">
+
+
+
+<!-- TEXT SECTION -->
+
+
+<div class="text">
+
+
+<h1>
+💗 Little Things That Make You Special 💗
+</h1>
+
+
+
+<p>
+
+Ramya,
+
+<br><br>
+
+Some things cannot be explained...
+they can only be felt.
+
+These are the little moments,
+little habits and little things
+that make you the person I adore ❤️
+
+</p>
+
+
+
+
+<div class="favorite-list">
+
+
+<h3>
+🌙 The way you make normal days unforgettable
+</h3>
+
+
+<h3>
+☕ Your cute little habits that make me smile
+</h3>
+
+
+<h3>
+🌷 Your kindness and the way you care for others
+</h3>
+
+
+<h3>
+🎶 The things you love and the joy they bring
+</h3>
+
+
+<h3>
+✨ The beautiful person you are inside and out
+</h3>
+
+
+</div>
+
+
+
+
+
+
+
+
+<a href="surprise.html">
+
+<button>
+
+🎁 One Last Surprise
+
+</button>
+
+</a>
+
+
+
+</div>
+
+
+
+
+
+<!-- IMAGE SECTION -->
+
+
+<div class="gallery">
+
+
+
+<div class="photo-card">
+
+<img src="images/IMG_9148.jpeg" alt="Ramya">
+
+<h3>
+Your Favourite Moments 📸
+</h3>
+
+</div>
+
+
+
+
+<div class="photo-card">
+
+<img src="images/IMG_0539.jpeg" alt="Ramya">
+
+<h3>
+Things That Bring Your Smile ✨
+</h3>
+
+</div>
+
+
+
+
+
+<div class="photo-card">
+
+<img src="images/IMG_0382.jpeg" alt="Ramya">
+
+<h3>
+Your Happy Little World 🌸
+</h3>
+
+</div>
+
+
+
+
+
+<div class="photo-card">
+
+<img src="images/81ead426-c392-4781-b021-c63dccaebf2f.jpeg" alt="Ramya">
+
+<h3>
+My Favourite Memory ❤️
+</h3>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+</body>
+
+</html>
