@@ -1,766 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Happy 1st Girlfriend Day ❤️</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;900&display=swap" rel="stylesheet">
-
-
-<style>
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
-}
-
-
-body{
-
-    min-height:100vh;
-
-    background:
-    linear-gradient(135deg,#fff0f5,#ffb6c1);
-
-    overflow:hidden;
-
-}
-
-
-/* NAV */
-
-nav{
-
-    padding:18px 50px;
-
-}
-
-
-nav h2{
-
-    color:#ff3366;
-
-    font-size:22px;
-
-    font-weight:700;
-
-}
-
-
-
-/* HERO */
-
-
-.hero{
-
-    height:calc(100vh - 70px);
-
-    display:flex;
-
-    justify-content:space-around;
-
-    align-items:center;
-
-    padding:20px 60px;
-
-    gap:40px;
-
-}
-
-
-
-.hero-text{
-
-    max-width:600px;
-
-}
-
-
-
-/* TITLE */
-
-
-.hero-text h1{
-
-    line-height:1.25;
-
-}
-
-
-
-.main-title{
-
-    display:inline-block;
-
-    font-size:29px;
-
-    font-weight:900;
-
-    color:#ff3366;
-
-    text-shadow:
-
-    0 5px 15px rgba(255,51,102,.3);
-
-}
-
-
-
-.sub-title{
-
-    display:inline-block;
-
-    margin-top:20px;
-
-    font-size:32px;
-
-    font-weight:500;
-
-    color:#444;
-
-}
-
-
-
-.name{
-
-    display:inline-block;
-
-    margin-top:8px;
-
-    font-size:30px;
-
-    font-weight:600;
-
-    color:#ff5c8a;
-
-}
-
-
-
-
-.hero-text p{
-
-    margin-top:20px;
-
-    font-size:18px;
-
-    color:#555;
-
-}
-
-
-
-.love{
-
-    margin-top:15px;
-
-    font-size:17px;
-
-    line-height:1.7;
-
-    color:#444;
-
-}
-
-
-
-/* IMAGE */
-
-
-.hero-side{
-
-    text-align:center;
-
-}
-
-
-
-.hero-side img{
-
-    width:320px;
-
-    height:430px;
-
-    object-fit:cover;
-
-    border-radius:30px;
-
-    box-shadow:
-
-    0 20px 40px rgba(255,51,102,.35);
-
-}
-
-
-
-.caption{
-
-    margin-top:12px;
-
-    color:#ff3366;
-
-    font-weight:600;
-
-}
-
-
-
-/* BUTTON */
-
-
-.btn{
-
-    margin-top:25px;
-
-    padding:15px 35px;
-
-    border:none;
-
-    border-radius:40px;
-
-    background:#ff3366;
-
-    color:white;
-
-    font-size:18px;
-
-    font-weight:bold;
-
-    cursor:pointer;
-
-    transition:.3s;
-
-}
-
-
-
-.btn:hover{
-
-    transform:scale(1.1);
-
-    background:#d81b60;
-
-}
-
-
-
-/* HEARTS */
-
-
-.heart{
-
-    position:absolute;
-
-    color:#ff3366;
-
-    animation:float 5s linear infinite;
-
-}
-
-
-
-@keyframes float{
-
-from{
-
-    transform:translateY(100vh);
-
-    opacity:1;
-
-}
-
-
-to{
-
-    transform:translateY(-10vh);
-
-    opacity:0;
-
-}
-
-}
-
-
-
-
-/* MOBILE */
-
-
-@media(max-width:900px){
-
-
-body{
-
-overflow:hidden;
-
-}
-
-
-nav{
-
-padding:10px 20px;
-
-}
-
-
-
-nav h2{
-
-font-size:18px;
-
-}
-
-
-
-.hero{
-
-height:calc(100vh - 50px);
-
-flex-direction:column;
-
-justify-content:center;
-
-text-align:center;
-
-padding:10px 20px;
-
-gap:15px;
-
-}
-
-
-
-.main-title{
-
-font-size:18px;
-
-}
-
-
-
-.sub-title{
-
-font-size:22px;
-
-margin-top:10px;
-
-}
-
-
-
-.name{
-
-font-size:20px;
-
-}
-
-
-
-.hero-text p{
-
-font-size:15px;
-
-margin-top:10px;
-
-}
-
-
-
-.love{
-
-font-size:14px;
-
-line-height:1.5;
-
-}
-
-
-
-.hero-side img{
-
-width:200px;
-
-height:260px;
-
-}
-
-
-
-.caption{
-
-font-size:14px;
-
-}
-
-
-
-.btn{
-
-font-size:15px;
-
-padding:12px 28px;
-
-margin-top:15px;
-
-}
-
-
-}
-body{
-    animation:fade 2s;
-}
-
-@keyframes fade{
-    from{
-        opacity:0;
-    }
-    to{
-        opacity:1;
-    }
-}
-.btn{
-
-box-shadow:0 0 20px #ff5c8a;
-
-animation:pulse 2s infinite;
-
-}
-
-@keyframes pulse{
-
-0%{
-transform:scale(1);
-}
-
-50%{
-transform:scale(1.08);
-box-shadow:0 0 35px #ff5c8a;
-}
-
-100%{
-transform:scale(1);
-}
-
-}
-.flip-card{
-
-width:340px;
-height:450px;
-
-perspective:1000px;
-
-cursor:pointer;
-
-margin:auto;
-
-}
-
-.flip-inner{
-
-position:relative;
-
-width:100%;
-height:100%;
-
-transition:1s;
-
-transform-style:preserve-3d;
-
-}
-
-.flip-inner.active{
-
-transform:rotateY(180deg);
-
-}
-
-.flip-front,
-.flip-back{
-
-position:absolute;
-
-width:100%;
-height:100%;
-
-border-radius:30px;
-
-backface-visibility:hidden;
-
-overflow:hidden;
-
-box-shadow:0 20px 40px rgba(255,51,102,.35);
-
-}
-
-.flip-front img{
-
-width:100%;
-height:100%;
-
-object-fit:cover;
-
-}
-
-.flip-back{
-
-background:linear-gradient(135deg,#ff3366,#ff80ab);
-
-color:white;
-
-display:flex;
-
-flex-direction:column;
-
-justify-content:center;
-
-align-items:center;
-
-padding:25px;
-
-text-align:center;
-
-transform:rotateY(180deg);
-
-}
-
-.flip-back h2{
-
-margin-bottom:20px;
-
-font-size:28px;
-
-}
-
-.flip-back p{
-
-line-height:1.8;
-
-font-size:18px;
-
-}
-
-</style>
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 1st Girlfriend Day ❤️</title>
+    <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;900&display=swap)" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #fff0f5, #ffb6c1);
+            /* SCROLL FIX: overflow-x mattum hidden panni, overflow-y auto kudukkanum */
+            overflow-x: hidden;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        nav {
+            padding: 18px 20px;
+            text-align: center;
+        }
+
+        nav h2 {
+            color: #ff3366;
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        /* HERO SECTION FIX */
+        .hero {
+            /* Height auto-va iruntha thaan content scroll aagum */
+            min-height: calc(100vh - 70px);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 40px 60px;
+            gap: 40px;
+            flex-wrap: wrap; /* Laptop/Mobile rendukkum adjust aagum */
+        }
+
+        .hero-text {
+            max-width: 600px;
+            flex: 1 1 450px; /* Responsive flex */
+        }
+
+        .main-title {
+            display: inline-block;
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: #ff3366;
+            text-shadow: 0 5px 15px rgba(255, 51, 102, .3);
+        }
+
+        .sub-title {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 2rem;
+            font-weight: 500;
+            color: #444;
+        }
+
+        .name {
+            display: inline-block;
+            margin-top: 8px;
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #ff5c8a;
+        }
+
+        .hero-text p {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #555;
+        }
+
+        .love {
+            margin-top: 15px;
+            font-size: 17px;
+            line-height: 1.7;
+            color: #444;
+        }
+
+        /* CARD FIX */
+        .hero-side {
+            text-align: center;
+            flex: 1 1 340px;
+        }
+
+        .flip-card {
+            width: 300px; /* Reduced slightly for better mobile fit */
+            height: 400px;
+            perspective: 1000px;
+            cursor: pointer;
+            margin: auto;
+        }
+
+        .flip-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: 1s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-inner.active {
+            transform: rotateY(180deg);
+        }
+
+        .flip-front, .flip-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 30px;
+            backface-visibility: hidden;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(255, 51, 102, .35);
+        }
+
+        .flip-front img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .flip-back {
+            background: linear-gradient(135deg, #ff3366, #ff80ab);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 25px;
+            text-align: center;
+            transform: rotateY(180deg);
+        }
+
+        .btn {
+            margin-top: 25px;
+            padding: 15px 35px;
+            border: none;
+            border-radius: 40px;
+            background: #ff3366;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: .3s;
+            box-shadow: 0 0 20px #ff5c8a;
+            animation: pulse 2s infinite;
+        }
+
+        .heart {
+            position: absolute;
+            color: #ff3366;
+            animation: float 5s linear infinite;
+            z-index: -1; /* Bottom-la heart poga */
+        }
+
+        @keyframes float {
+            from { transform: translateY(100vh); opacity: 1; }
+            to { transform: translateY(-10vh); opacity: 0; }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.08); box-shadow: 0 0 35px #ff5c8a; }
+            100% { transform: scale(1); }
+        }
+
+        /* MOBILE RESPONSIVE FIXES */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 20px;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .main-title { font-size: 1.5rem; }
+            .sub-title { font-size: 1.3rem; }
+            .name { font-size: 1.2rem; }
+            .hero-text p { font-size: 15px; }
+            .love { font-size: 14px; }
+            
+            .flip-card {
+                width: 260px;
+                height: 350px;
+            }
+        }
+    </style>
 </head>
-
-
-
 <body>
 
-
-
 <nav>
-
-<h2>
-❤️ Made With Love Just For varasala ❤️
-</h2>
-
+    <h2>❤️ Made With Love Just For Varasala ❤️</h2>
 </nav>
 
-
-
 <section class="hero">
+    <div class="hero-text">
+        <h1>
+            <span class="main-title">Happy 1st Girlfriend Day My Love ❤️</span><br>
+            <span class="sub-title">To The Girl Who Changed My Life Forever 💖</span><br>
+            <span class="name">Varasala Ramya Rajkumar 💕</span>
+            <p style="color:#ff3366;font-size:18px;margin-top:8px;">✨ Forever My Favourite Person ✨</p>
+        </h1>
 
+        <p>Every love story is beautiful, but ours is my favourite forever ❤️</p>
 
-
-<div class="hero-text">
-
-
-
-<h1>
-
-<span class="main-title">
-Happy 1st Girlfriend Day My Love ❤️
-</span>
-
-
-<br>
-
-
-<span class="sub-title">
-To The Girl Who Changed My Life Forever 💖
-</span>
-
-
-<br>
-
-
-<span class="name">
-Varasala Ramya Rajkumar 💕
-</span>
-
-<p style="color:#ff3366;font-size:18px;margin-top:8px;">
-✨ Forever My Favourite Person ✨
-</p>
-
-</h1>
-
-
-
-
-<p>
-
-Every love story is beautiful,but ours is my favourite forever ❤️
-
-</p>
-
-
-
-
-<div class="love">
-
-From the day you entered my life...everything became brighter ❤️
-    <br><br>
-Your smile gives me peace.Your voice gives me happiness.
-<br><br>
-Your love gives me strength.
-    <br><br>
-No matter where life takes us,I promise to stand beside you,respect you,care for you,
-and keep loving you every single day.
-<br><br>
-Thank you for being my world ❤️🌹
-
-</div>
-
-
-
-
-<button class="btn" onclick="goNext()">
-
-💌Click Here For Your Special Surprise❤️
-
-</button>
-
-
-
-</div>
-
-
-
-
-
-<div class="hero-side">
-
-    <div class="flip-card" onclick="flipCard()">
-
-        <div class="flip-inner" id="flipCard">
-
-            <!-- Front -->
-            <div class="flip-front">
-                <img src="./IMAGES/IMG_9939.jpeg" alt="Ramya">
-            </div>
-
-            <!-- Back -->
-            <div class="flip-back">
-
-                <h2>❤️ My Princess ❤️</h2>
-
-                <p>
-
-                varasala Ramya ❤️<br><br>
-
-                Every moment with you is the most beautiful part of my life.
-
-                <br><br>
-
-                 love you,
-
-                respect you,
-
-                support you,
-
-                and make you smile forever. 🌹
-
-                <br><br>
-
-                I Love You So Much ❤️
-
-                </p>
-
-            </div>
-
+        <div class="love">
+            From the day you entered my life...everything became brighter ❤️<br>
+            Your smile gives me peace. Your voice gives me happiness. Your love gives me strength.<br><br>
+            Thank you for being my world ❤️🌹
         </div>
 
+        <button class="btn" onclick="goNext()">
+            💌 Click Here For Your Special Surprise ❤️
+        </button>
     </div>
 
-    <div class="caption">
-        ✨ Click the photo ❤️
+    <div class="hero-side">
+        <div class="flip-card" onclick="flipCard()">
+            <div class="flip-inner" id="flipCard">
+                <div class="flip-front">
+                    <!-- Image path check pannikonga -->
+                    <img src="./IMAGES/your_image.jpeg" alt="Ramya">
+                </div>
+                <div class="flip-back">
+                    <h2>❤️ My Princess ❤️</h2>
+                    <p>
+                        Varasala Ramya ❤️<br><br>
+                        Every moment with you is the most beautiful part of my life.
+                        I Love You So Much ❤️
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="caption">✨ Click the photo ❤️</div>
     </div>
-
-</div>
-
-
 </section>
 
-
-
-
-
 <script>
+    function goNext() {
+        window.location.href = "beautifulday.html";
+    }
 
+    function createHeart() {
+        let h = document.createElement("div");
+        h.className = "heart";
+        h.innerHTML = "❤️";
+        h.style.left = Math.random() * 100 + "vw";
+        h.style.fontSize = (Math.random() * 20 + 15) + "px";
+        h.style.animationDuration = (Math.random() * 3 + 3) + "s";
+        document.body.appendChild(h);
+        setTimeout(() => { h.remove(); }, 5000);
+    }
 
-function goNext(){
+    setInterval(createHeart, 300);
 
-window.location.href="beautifulday.html";
-
-}
-
-
-
-function createHeart(){
-
-let h=document.createElement("div");
-
-h.className="heart";
-
-h.innerHTML="❤️";
-
-
-h.style.left=Math.random()*100+"vw";
-
-
-h.style.fontSize=
-(Math.random()*20+15)+"px";
-
-
-h.style.animationDuration=
-(Math.random()*3+3)+"s";
-
-
-document.body.appendChild(h);
-
-
-setTimeout(()=>{
-
-h.remove();
-
-},5000);
-
-
-}
-
-
-setInterval(createHeart,300);
-function flipCard(){
-
-document.getElementById("flipCard").classList.toggle("active");
-
-}
-
-
-
+    function flipCard() {
+        document.getElementById("flipCard").classList.toggle("active");
+    }
 </script>
 
-
-
 </body>
-
 </html>
+
+
+
+
+
+
